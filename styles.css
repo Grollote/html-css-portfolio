@@ -1,4 +1,142 @@
-html, body {
-    margin: 0;
-    padding: 0;
+#logo{margin:50px auto;
+		display:block;
+		width:502px;
+		height:135px;}
+#accueil{
+		height:400px;
+		background-image: url("images/hero.png")}
+
+#accueil p{font-family: 'Playfair Display', serif;
+			font-size: 60px;
+			text-align: center;
+			line-height:400px;
+			color:white;
+			margin-right: 30px;}
+
+main
+{
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+    width: 990px;
+}
+main div
+{
+    width: 480px;
+    display: inline-block;
+}
+
+
+main div:
+{
+   
+}
+
+main>div>h3
+{
+    font-family: 'Playfair Display', serif ;
+    font-size : 30px;
+    height: 30px;
+    margin-top: 50px ;
+    margin-bottom: 30px;
+    font-weight:normal;
+}
+main>div p
+{
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin:0px;
+}
+main>div>p:
+{
+    display: inline-block;
+    margin-bottom: 22px;
+}
+
+
+main div h5
+{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family: 'Playfair Display', serif ;
+    font-size: 18px;
+}
+main div h5{text-align: right;}
+main div h5 a
+{
+    color: black;
+    font-weight:normal;
+}
+#pictures {margin-left:-30px;}
+main div img
+{
+    width:225px;
+    height: 149px;
+    float: left;
+    display: block;
+    margin-left: 30px;
+    margin-bottom:30px; 
+}
+
+
+#submain 
+{
+    margin: auto;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 80px;
+    float:center;
+}
+#submain a
+{
+    background-color: black;
+    padding: 20px;
+    font-family: 'Playfair Display', serif ;
+    text-decoration: none;
+    color: white;
+    float:center;
+}
+
+
+footer
+{
+    background-color: black;
+    height: 167px;
+}
+footer ul
+{
+    margin-top: 70px;
+    margin-left: 25px;
+    margin-bottom: 70px;
+    padding: 0px;
+    display: inline-block;
+}
+footer li
+{
+    list-style-type: none;
+    float: left;
+}
+footer li a
+{
+    color:white;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif ;
+    font-size: 16px;
+}
+footer li:
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+footer div
+{
+    width:990px;
+    margin:auto;
+}
+footer img
+{
+    float: right;
+    margin-right: 25px;
+    margin-top: 50px;
 }
